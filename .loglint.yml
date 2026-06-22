@@ -1,0 +1,18 @@
+check_lowercase: true
+check_english: true
+check_special_chars: true
+check_sensitive_data: true
+
+sensitive_patterns:
+  - password
+  - passwd
+  - token
+  - secret
+  - api_key
+  - apikey
+  - access_key
+  - private_key
+
+allowed_logger_names:
+  - slog
+  - logger

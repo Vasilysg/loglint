@@ -1,0 +1,6 @@
+version: v2.12.2
+
+plugins:
+  - module: github.com/Vasilysg/loglint
+    path: .
+    import: github.com/Vasilysg/loglint/pkg/golangci
