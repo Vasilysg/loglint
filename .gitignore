@@ -1,5 +1,5 @@
-loglint
-custom-gcl
+/loglint
+/custom-gcl
 .DS_Store
 .idea/
 .vscode/
