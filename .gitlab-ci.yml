@@ -10,7 +10,7 @@ test:
     - go test ./...
 
 build:
-  image: golang:1.22
+  image: golang:1.25
   stage: build
   script:
     - go build ./cmd/loglint
